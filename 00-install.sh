@@ -27,6 +27,7 @@ echo "Aplicando permissões de execução..."
 chmod +x "$REPO_DIR/asciiart"/*
 chmod +x "$REPO_DIR/02-themes.sh"
 chmod +x "$REPO_DIR/03-icons.sh"
+chmod +x "$REPO_DIR/04-cursors.sh"
 
 chmod +x "$REPO_DIR/iSettings/bin"/*
 chmod +x "$REPO_DIR/iSettings/rofi"/*
@@ -57,10 +58,12 @@ echo "Instalando tema e ícones!"
 # Executa os scripts usando o interpretador correto
 "$REPO_DIR/02-themes.sh"
 "$REPO_DIR/03-icons.sh"
+"$REPO_DIR/04-cursors.sh"
 
 # Ou, se preferires ser mais explícito:
 # bash "$REPO_DIR/02-themes.sh"
 # bash "$REPO_DIR/03-icons.sh"
+# bash "$REPO_DIR/04-cursors.sh"
 
 echo ""
 echo "Instalação concluída com sucesso!"
