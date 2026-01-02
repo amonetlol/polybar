@@ -24,7 +24,7 @@ ln -sf "$REPO_DIR/iSettings"  ~/.config/iSettings
 # Permissões gerais
 echo "Aplicando permissões de execução..."
 
-chmod +x "$REPO_DIR/asciiart"/*.sh
+chmod +x "$REPO_DIR/asciiart"/*
 chmod +x "$REPO_DIR/02-themes.sh"
 chmod +x "$REPO_DIR/03-icons.sh"
 
