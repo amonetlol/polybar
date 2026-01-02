@@ -40,7 +40,7 @@
 	<name>Editar como root</name>
 	<submenu></submenu>
 	<unique-id>1624533584185359-2</unique-id>
-	<command>pkexec geany %n</command>
+	<command>pkexec code %n</command>
 	<description>Editar arquivo como root</description>
 	<range></range>
 	<patterns>*</patterns>
