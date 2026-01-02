@@ -52,6 +52,16 @@ done
 # Permissão extra no polybar.sh que está na raiz dos themes (se existir)
 chmod +x "$THEMES_DIR/polybar.sh" 2>/dev/null || true
 
+# Instalando tema e icones
+echo "Instalando tema e ícones!"
+# Executa os scripts usando o interpretador correto
+"$REPO_DIR/02-themes.sh"
+"$REPO_DIR/03-icons.sh"
+
+# Ou, se preferires ser mais explícito:
+# bash "$REPO_DIR/02-themes.sh"
+# bash "$REPO_DIR/03-icons.sh"
+
 echo ""
 echo "Instalação concluída com sucesso!"
 echo "Links simbólicos criados em ~/.config/"
