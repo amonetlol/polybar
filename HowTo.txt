@@ -1,0 +1,13 @@
+## Alterar o tema nordico pelo que escolher no rofi
+
+# === Alacritty ===
+alacritty --config-file /home/pio/.config/iSettings/alacritty/alacritty.toml
+
+# === Rofi ===
+rofi -show drun -config ~/.config/iSettings/themes/nordico/rofi/launcher.rasi
+
+# === PowerMenu ===
+~/.config/iSettings/rofi/powermenu.sh
+
+# === Polybar ===
+. ~/.config/iSettings/themes/polybar.sh
